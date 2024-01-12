@@ -1,0 +1,31 @@
+export const REMOVE_USER = "REMOVE_USER";
+export const LOGIN_DATA = "LOGIN_DATA ";
+export const SIGNUP_DATA = "SIGNUP_DATA";
+export const USER_DETAILS = "USER_DETAILS";
+
+export const ALL_DATA_UNMOUNT = "ALL_DATA_UNMOUNT";
+
+export const USER_LOGIN_REQUEST = "USER_LOGIN_REQUEST";
+export const USER_LOGIN_SUCCESS = "USER_LOGIN_SUCCESS";
+export const USER_LOGIN_FAIL = "USER_LOGIN_FAIL";
+
+export const CREATE_USER_REQUEST = "CREATE_USER_REQUEST";
+export const CREATE_USER_SUCCESS = "CREATE_USER_SUCCESS";
+export const CREATE_USER_FAIL = "CREATE_USER_FAIL";
+
+export const GET_USER_REQUEST = "GETUSER_REQUEST";
+export const GET_USER_SUCCESS = "GET_USER_SUCCESS";
+export const GET_USER_FAIL = "GET_USER_FAIL";
+
+export const USER_LOGOUT_REQUEST = "USER_LOGOUT_REQUEST";
+export const USER_LOGOUT_SUCCESS = "USER_LOGOUT_SUCCESS";
+export const USER_LOGOUT_FAIL = "USER_LOGOUT_FAIL";
+
+/***************User Role in signup page******************* */
+export const GET_USER_ROLE_REQUEST = "GET_USER_ROLE_REQUEST";
+export const GET_USER_ROLE_SUCCESS = "GET_USER_ROLE_SUCCESS";
+export const GET_USER_ROLE_FAIL = "GET_USER_ROLE_FAIL";
+
+export const SET_TOKEN_REQUEST = "SET_TOKEN_REQUEST";
+export const SET_TOKEN_SUCCESS = "SET_TOKEN_SUCCESS";
+export const SET_TOKEN_FAIL = "SET_TOKEN_FAIL";

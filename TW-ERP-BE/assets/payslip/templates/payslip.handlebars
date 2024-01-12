@@ -1,0 +1,185 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title></title>
+  <style>
+    * {
+      font-size: 13px;
+    }
+
+    tr {
+      text-align: center;
+    }
+
+    td.logo,
+    td.address {
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <table width="1056" height="816" role="presentation" border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="2" class="logo">
+        <img src="https://thoughtwin.com/assets/img/Logo.svg" loading="lazy" />
+      </td>
+      <td colspan="3" class="address">
+        <h3>
+          THOUGHTWIN IT SOLUTIONS PRIVATE LIMITED 11 SACHCHIDANAND NAGAR
+          INDORE
+        </h3>
+      </td>
+    </tr>
+    <tr style="text-align: center;">
+      <td colspan="5">
+        <span><b>Salary Slip of {{month}} - {{year}} </b></span>
+      </td>
+    </tr>
+    <tr style="text-align: center;">
+      <td colspan="5">
+        <span><b>{{name}} </b></span>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Employee Code:</b></td>
+      <td><b>{{empCode}}</b></td>
+      <td></td>
+      <td><b>PF Account No:</b></td>
+      <td><b>{{pf_account_no}}</b></td>
+    </tr>
+    <tr>
+      <td><b>Designation:</b></td>
+      <td><b>{{designation}}</b></td>
+      <td></td>
+      <td><b>Bank Account No. :</b></td>
+      <td><b>{{bank_account_no}}</b></td>
+    </tr>
+    <tr>
+      <td><b>PAN Number :</b></td>
+      <td><b>{{pan_no}}</b></td>
+      <td></td>
+      <td><b>Bank Name :</b></td>
+      <td><b>{{bank_name}}</b></td>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <td><b>Total No. Of Days</b></td>
+      <td><b>{{total_days}}</b></td>
+      <td></td>
+      <td><b>Total Paid Leaves Alloted</b></td>
+      <td><b>{{allocated_leaves}}</b></td>
+    </tr>
+    <tr>
+      <td><b>Extra Working Days</b></td>
+      <td><b>{{extra_working_days}}</b></td>
+      <td></td>
+      <td><b>Paid Leave Already Taken</b></td>
+      <td><b>{{previous_leaves}}</b></td>
+    </tr>
+    <tr>
+      <td><b>Number Of Paid Days</b></td>
+      <td><b>{{paid_days}}</b></td>
+      <td></td>
+      <td><b>Current Month Absent Days</b></td>
+      <td><b>{{absents}}</b></td>
+    </tr>
+    <tr>
+      <td colspan="3" rowspan="2"></td>
+      <td>
+        <b>Paid Leave Allowed for this Month</b>
+      </td>
+      <td>
+        <b>{{month_paid_leaves}}</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Remaining Paid Leaves C/F For Next Month</b>
+      </td>
+      <td>
+        <b>{{cf_leaves}}</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <td><b>Earnings</b></td>
+      <td><b>Gross Salary</b></td>
+      <td><b>Amount</b></td>
+      <td><b>Deductions</b></td>
+      <td><b>Amount</b></td>
+    </tr>
+    <tr>
+      <td><b>Basic Salary</b></td>
+      <td><b>{{basic_pay}}</b></td>
+      <td><b>{{basic_pay}}</b></td>
+      <td><b>Provident Fund</b></td>
+      <td><b>{{total_pf}}</b></td>
+    </tr>
+    <tr>
+      <td><b>HRA</b></td>
+      <td><b>{{hra}}</b></td>
+      <td><b>{{hra}}</b></td>
+      <td><b>Provident Tax</b></td>
+      <td><b>{{professional_tax}}</b></td>
+    </tr>
+    <tr>
+      <td><b>Conveyance Allowance</b></td>
+      <td><b>{{conveyance_all}}</b></td>
+      <td><b>{{conveyance_all}}</b></td>
+      <td><b>Advance</b></td>
+      <td><b>{{advance}}</b></td>
+    </tr>
+    <tr>
+      <td><b>Medical Allowance</b></td>
+      <td><b>{{medical_all}}</b></td>
+      <td><b>{{medical_all}}</b></td>
+      <td><b>TDS</b></td>
+      <td><b>{{tds}}</b></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><b>Previous Month Adjustments</b></td>
+      <td><b>0.00</b></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Total Earnings</td>
+      <td><b>{{net_salary}}</b></td>
+      <td><b>{{net_salary}}</b></td>
+      <td><b>Total Deductions</b></td>
+      <td><b>{{total_deductions}}</b></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><b>Net Amount</b></td>
+      <td><b>{{net_payable}}</b></td>
+    </tr>
+  </table>
+</body>
+
+</html>

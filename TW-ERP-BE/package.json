@@ -1,0 +1,47 @@
+{
+  "name": "tw-erp-backend",
+  "version": "1.0.0",
+  "description": "Node.js + MongoDB + Express + jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start:prod": "dotenv -e .env.prod nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "mongodb"
+  ],
+  "author": "tw-erp navneet",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "csv-parse": "^5.3.0",
+    "csv-stringify": "^6.2.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.1",
+    "dotenv-cli": "^6.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^7.0.1",
+    "handlebars": "^4.7.7",
+    "html-pdf": "^3.0.1",
+    "http-status": "^1.5.2",
+    "joi": "^17.6.0",
+    "moment": "^2.29.4",
+    "mongoose": "^5.9.1",
+    "mongoose-paranoid-plugin": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.1",
+    "nodemailer": "^6.9.1",
+    "nodemailer-express-handlebars": "^6.1.0",
+    "nodemon": "^2.0.16",
+    "phantomjs-prebuilt": "^2.1.13",
+    "randomstring": "^1.2.2",
+    "xlsx": "^0.18.5"
+  }
+}
